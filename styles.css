@@ -17,14 +17,14 @@ header h1 {
   color: var(--primary-color);
 }
 
-.input-label {
+#input-label {
   display: block;
   font-size: larger;
   margin: 2rem 0px;
   font-weight: 600;
 }
 
-.input {
+#initial-price, #current-price, #stocks-quantity {
   font-size: large;
   display: block;
   outline: #fff;
@@ -35,7 +35,7 @@ header h1 {
   max-width: 325px;
 }
 
-.calculate-btn {
+#calculate-btn {
   background: var(--secondary-color);
   border: none;
   color: #fff;
@@ -48,14 +48,14 @@ header h1 {
   display: block;
 }
 
-.main {
+#main {
   border: 2px solid var(--primary-color);
   margin: 5rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
-.output {
+#output {
   font-size: x-large;
   font-weight: 600;
   margin: 2rem 0;
