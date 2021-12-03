@@ -1,8 +1,8 @@
-var initialPrice = document.querySelector(".initial-price");
-var quantity = document.querySelector(".stocks-quantity");
-var currentPrice = document.querySelector(".current-price");
-var calculate = document.querySelector(".calculate-btn");
-var outputdiv = document.querySelector(".output");
+var initialPrice = document.querySelector("#initial-price");
+var quantity = document.querySelector("#stocks-quantity");
+var currentPrice = document.querySelector("#current-price");
+var calculate = document.querySelector("#calculate-btn");
+var outputdiv = document.querySelector("#output");
 
 calculate.addEventListener("click", clickHandler);
 
