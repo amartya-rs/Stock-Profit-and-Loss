@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock P&L</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Stock Profit & Loss Calculator</h1>
+    </header>
+    <main class="main">
+      <label class="input-label" for="initial-price">
+        Intial Price of stock
+        <input
+          class="input"
+          type="text"
+          class="initial-price"
+          placeholder="Enter Initial Price "
+      /></label>
+      <label class="input-label" for="stocks-quantity">
+        Quantity of Stock
+        <input
+          class="input"
+          type="text"
+          class="stocks-quantity"
+          placeholder="Enter the quantity"
+        />
+      </label>
+      <div>
+        <label class="input-label" for="current-price"
+          >Current Price of stock
+          <input
+            class="input"
+            type="text"
+            class="current-price"
+            placeholder="Enter the Current Price"
+        /></label>
+      </div>
+
+      <button class="calculate-btn">Calculate</button>
+
+      <div class="output"></div>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #ffce45;
+  --secondary-color: #b05e27;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.input-label {
+  display: block;
+  font-size: larger;
+  margin: 2rem 0px;
+  font-weight: 600;
+}
+
+.input {
+  font-size: large;
+  display: block;
+  outline: #fff;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  border: 2px solid var(--primary-color);
+  width: 100%;
+  max-width: 325px;
+}
+
+.calculate-btn {
+  background: var(--secondary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+.main {
+  border: 2px solid var(--primary-color);
+  margin: 5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.output {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 2rem 0;
+}
