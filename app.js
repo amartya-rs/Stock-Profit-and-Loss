@@ -3,6 +3,7 @@ var quantity = document.querySelector("#stocks-quantity");
 var currentPrice = document.querySelector("#current-price");
 var calculate = document.querySelector("#calculate-btn");
 var outputdiv = document.querySelector("#output");
+var mainContainer = document.querySelector("#main");
 
 calculate.addEventListener("click", clickHandler);
 
@@ -27,6 +28,7 @@ function clickHandler() {
         " and profit percentage is " +
         profitPercent +
         " %";
+        mainContainer.style.backgroundColor = "green";
     } else {
       outputdiv.innerText =
         "Your loss is ₹ " +
@@ -34,6 +36,7 @@ function clickHandler() {
         " and loss percentage is " +
         Math.abs(profitPercent) +
         " %";
+        mainContainer.style.backgroundColor = "red";
     }
   }
 }
